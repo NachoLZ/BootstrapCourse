@@ -1,24 +1,23 @@
 {
-  "name": "bs-course",
+  "name": "confusion",
   "version": "1.0.0",
-  "description": "coursera course",
+  "description": "This is a website for Ristorante Con Fusion",
   "main": "index.html",
   "scripts": {
     "start": "npm run lite",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "lite": "lite-server"
+    "lite": "lite-server",
+    "scss": "node-sass -o css/ css/"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/NachoLZ/BootstrapCourse.git"
-  },
-  "author": "Ignacio Lizana",
+  "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/NachoLZ/BootstrapCourse/issues"
-  },
-  "homepage": "https://github.com/NachoLZ/BootstrapCourse#readme",
   "devDependencies": {
-    "lite-server": "^2.6.1"
+    "lite-server": "^2.3.0"
+  },
+  "dependencies": {
+    "bootstrap": "^4.6.0",
+    "bootstrap-social": "^5.1.1",
+    "font-awesome": "^4.7.0",
+    "node-sass": "^6.0.1"
   }
 }
